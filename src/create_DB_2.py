@@ -107,3 +107,4 @@ for _ in tqdm(pools.imap_unordered(pool_func, files), total=n_files):
 # total time
 end = time()
 print('\nTotal time: {} [s]\n'.format(end-start))
+print('dummy commit')
